@@ -7,19 +7,22 @@
     <style>
       :root { color-scheme: light; font-family: Arial, sans-serif; color: #14213d; background: #f8f7f4; }
       body { margin: 0; }
-      main { width: min(760px, calc(100% - 40px)); margin: 0 auto; padding: 48px 0 64px; }
+      main { width: min(760px, calc(100% - 40px)); margin: 0 auto; padding: 48px 0 64px; display: flex; flex-direction: column; }
       h1 { font-size: 30px; margin: 0 0 8px; }
       h2 { font-size: 20px; margin: 32px 0 10px; }
       p, li { font-size: 16px; line-height: 1.65; }
       .meta { color: #606778; }
       .language { margin-top: 56px; padding-top: 40px; border-top: 1px solid #d9d6cf; }
+      #en { order: 1; }
+      #ro { order: 2; }
+      footer { order: 3; }
       a { color: #5f3dde; }
       footer { margin-top: 48px; color: #707070; font-size: 14px; }
     </style>
   </head>
   <body>
     <main>
-      <section id="ro" lang="ro">
+      <section id="ro" class="language" lang="ro">
         <h1>FUTURE SELF — TERMENI ȘI CONDIȚII</h1>
         <p class="meta"><strong>Versiunea 1.1 — Octombrie 2026</strong></p>
 
@@ -125,7 +128,7 @@
         <p><strong>Explore IT LTD</strong><br><strong><a href="mailto:mindfulappsstudio@gmail.com">mindfulappsstudio@gmail.com</a></strong></p>
       </section>
 
-      <section id="en" class="language" lang="en">
+      <section id="en" lang="en">
         <h1>FUTURE SELF — TERMS &amp; CONDITIONS</h1>
         <p class="meta"><strong>Version 1.1 — October 2026</strong></p>
 
